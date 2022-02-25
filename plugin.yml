@@ -1,0 +1,17 @@
+name: RankAPI
+main: Nova\RankAPI\RankAPI
+api: 4.0.0
+version: 1.0.0
+authors: ["NovaStark1245"]
+description: Simple Rank plugin for PocketMine-MP (Altay)
+
+commands:
+    rank:
+        description: RankAPI Command
+        default: op
+        permission: rankapi.command.use
+        
+permissions:
+    rankapi.command.use:
+        default: op
+        description: RankAPI Command Permission
